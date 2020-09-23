@@ -10,7 +10,6 @@
     &__item {
       display: flex;
       height: 25px;
-      border: 0.5px solid;
       border-radius: 4px;
       margin: 2px;
       padding: 2px;
@@ -21,7 +20,7 @@
     }
   
     button {
-      background-color: #6c56fc;
+      background-color: #8170f1;
       border-radius: 4px;
       color: #ffffff;
       width: 100%;
@@ -31,7 +30,7 @@
       transform: background-color .4s ease-in-out;
   
       &:hover {
-        background-color: #8170f1;
+        background-color: #6c56fc;
       }
     }
     

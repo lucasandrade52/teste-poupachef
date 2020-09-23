@@ -8,7 +8,7 @@ export default function Card(props) {
   const { name, phoneNumber, city, state } = props
   return (
     <div className="card">
-      <Title head={"h3"} title={name}/>
+      <Title head={"h4"} title={name}/>
       <div className="card__item card__item--one">Telefone: 
         <p className="card__info">{phoneNumber}</p>
       </div>

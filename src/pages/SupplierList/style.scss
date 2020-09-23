@@ -20,7 +20,11 @@ margin: auto;
     }
     
     .suppliers__button--logout {
-      background-color: #fd5959;
+      background-color: #f55c5c;
+
+      &:hover {
+        background-color: #f73e3e;
+      }
     }
   }
 }

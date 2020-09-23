@@ -23,9 +23,9 @@ export default function SuppliersDetails() {
     }
 
     return (
-        <section className="suppliers">     
+        <section className="content-page">     
             <Title head={"h1"} title="Detalhe dos Fornecedores"/>
-            <div className="suppliers__container">
+            <div className="content-page__detail">
                 <Form handleSubmit={handleSubmit}>
                 <Input 
                 type="text" 
@@ -107,6 +107,8 @@ export default function SuppliersDetails() {
                 value={formState.state}
                 onChange={(event) => handleInputValue(event)}
                 />
+
+                <footer className="content-page__footer">
                 <Button type="submit" className="content-page__button" text="Salvar"/>
                 <Button className="content-page__button content-page__button--delete" text="Deletar"/>
                 <Button className="content-page__button content-page__button--return" text="Cancelar"/>
@@ -115,6 +117,7 @@ export default function SuppliersDetails() {
                     name="reset" 
                     value="Limpar formulário"
                 />
+                </footer>
             </Form>
 
             
