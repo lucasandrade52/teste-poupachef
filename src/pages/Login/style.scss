@@ -1,0 +1,14 @@
+.login {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.1);
+  margin: 20vh auto;
+  max-width: 450px;
+  padding: 20px;
+  text-align: center;
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}

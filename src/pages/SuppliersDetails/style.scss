@@ -1,0 +1,34 @@
+.supplier {
+  max-width: 1024px;
+  margin: 50px auto;
+}
+
+.supplier__container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.1);
+  margin: 5vh auto;
+  max-width: 70vh;
+  padding: 20px;
+  text-align: center;
+
+  footer input {
+    width: 25%;
+    cursor: pointer;
+    transition: 0.4ms;
+    background-color: #cec6c6;
+
+    &:hover {
+      background-color: #f76d6d;
+      text-transform: uppercase;
+    }
+  }
+
+  footer button {
+    width: 20%;
+  }  
+
+  .content-page__button--delete {
+    background-color: #f76d6d;
+  }
+}
