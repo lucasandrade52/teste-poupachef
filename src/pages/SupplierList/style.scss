@@ -1,30 +1,30 @@
 .suppliers {
-text-align: center;
-padding: 32px;
-font-size: 14px;
-max-width: 1024PX;
-margin: auto;
-
-  &__container {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  footer {
-    display: flex;
-    justify-content: space-around; 
-    
-    button {
-      width: 25%; 
-      position: bottom; 
+  text-align: center;
+  padding: 32px;
+  font-size: 14px;
+  max-width: 1024PX;
+  margin: auto;
+  
+    &__container {
+      display: flex;
+      justify-content: space-around;
     }
-    
-    .suppliers__button--logout {
-      background-color: #f55c5c;
-
-      &:hover {
-        background-color: #f73e3e;
+  
+    footer {
+      display: flex;
+      justify-content: space-around; 
+      
+      button {
+        width: 25%; 
+        position: bottom; 
+      }
+      
+      .suppliers__button--logout {
+        background-color: #f55c5c;
+  
+        &:hover {
+          background-color: #f73e3e;
+        }
       }
     }
   }
-}
